@@ -9,7 +9,7 @@ cd WebScraber
 
 ## Run sever(backend)
 ```shell
-cd concurrent-web-scraper
+cd concurrent-web-scraper-server
 ```
 
 ### Install packages
@@ -66,7 +66,7 @@ npm start
 ```
 
 ## Main code: 
-#### `/concurrent-web-scraper/src/scraper/scraper.service.ts`
+#### `/concurrent-web-scraper-server/src/scraper/scraper.service.ts`
 ```typescript
 import { Injectable } from '@nestjs/common';
 import axios from 'axios';
